@@ -10,6 +10,7 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
 gem 'mongoid', '~> 5.0.0.beta'
+gem 'bson_ext'
 gem 'sdoc',         '0.4.0', group: :doc
 
 group :development, :test do
