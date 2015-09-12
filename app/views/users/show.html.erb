@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<table class="table">
+<tr>
+    <td><strong>Email:</strong></td>
+    <td><%= @user.email %></td>
+</tr>    
+</table>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
